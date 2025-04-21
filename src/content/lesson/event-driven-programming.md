@@ -239,7 +239,8 @@ You have to use the exact same parameters in the `removeEventListener()` functio
 
 Here is an example:
 
-In this code, we are adding an event listener to the click event. Afterward, the first time the click listener gets called, the handler function removes the event listener from the button. That’s why the second time the button gets clicked, nothing happens.
+In this code, we are adding an event listener to the click event. Afterward, the first time the click listener gets called, the handler function removes the event listener from the button. That’s why the second time the button gets clicked, nothing happens. JS Fiddle 
+ function inicialize is misspelt, should be initialize.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
